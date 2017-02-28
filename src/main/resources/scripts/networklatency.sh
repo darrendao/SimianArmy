@@ -5,5 +5,4 @@
 # sudo tc qdisc add dev eth0 root latency delay 1000ms 500ms
 
 # Adds 1000ms latency
-sudo tc qdisc add dev eth0 root netem delay 1000ms
-
+sudo -i tc qdisc add dev eth0 root netem delay 1000ms

@@ -13,3 +13,5 @@ for i in {1..32}
 do
     nohup /bin/bash /tmp/infiniteburn.sh &
 done
+
+sleep 5
